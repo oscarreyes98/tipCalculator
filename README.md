@@ -33,11 +33,13 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I kept getting the message 'terminating with uncaught exception of type NSException'.
+There was a problem with the outlets on my view controller, which led me to redo the
+entire project three times, which is why I am submitting so late.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Oscar Reyes]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
