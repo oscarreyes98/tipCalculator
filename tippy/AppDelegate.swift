@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  tippy
 //
-//  Created by Oscar Reyes on 12/26/16.
+//  Created by Oscar Reyes on 12/14/16.
 //  Copyright © 2016 Oscar Reyes. All rights reserved.
 //
 
