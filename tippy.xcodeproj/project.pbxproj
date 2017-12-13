@@ -196,15 +196,18 @@
 				TargetAttributes = {
 					F0E5A3691E12114100D97E94 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LX692C75AG;
 						ProvisioningStyle = Automatic;
 					};
 					F0E5A37D1E12114100D97E94 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LX692C75AG;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F0E5A3691E12114100D97E94;
 					};
 					F0E5A3881E12114100D97E94 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LX692C75AG;
 						ProvisioningStyle = Automatic;
 						TestTargetID = F0E5A3691E12114100D97E94;
 					};
@@ -414,7 +417,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LX692C75AG;
 				INFOPLIST_FILE = tippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tippy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,7 +432,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LX692C75AG;
 				INFOPLIST_FILE = tippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tippy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +448,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LX692C75AG;
 				INFOPLIST_FILE = tippyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tippyTests;
@@ -453,6 +464,8 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LX692C75AG;
 				INFOPLIST_FILE = tippyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tippyTests;
@@ -466,6 +479,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LX692C75AG;
 				INFOPLIST_FILE = tippyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tippyUITests;
@@ -479,6 +494,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LX692C75AG;
 				INFOPLIST_FILE = tippyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.tippyUITests;
@@ -507,6 +524,7 @@
 				F0E5A3941E12114100D97E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0E5A3951E12114100D97E94 /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +533,7 @@
 				F0E5A3971E12114100D97E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0E5A3981E12114100D97E94 /* Build configuration list for PBXNativeTarget "tippyUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +542,7 @@
 				F0E5A39A1E12114100D97E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -32,9 +32,10 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         let defaults = UserDefaults.standard
-        let tipValue = defaults.object(forKey: "default_tip_percentage")
+        if let tipValue = defaults.object(forKey: "default_tip_percentage"){
         
         tipControl.selectedSegmentIndex = tipValue as! Int;
+        }
         defaults.synchronize()
     }
     
